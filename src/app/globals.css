@@ -17,3 +17,18 @@
 body {
  
 }
+
+.scrollbar-hide {
+  overflow-y: scroll;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+

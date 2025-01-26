@@ -9,7 +9,7 @@ import React from 'react';
 // { name, message, time, unreadMessages }: UsersMessagesProps
 const UsersMessages = () => {
   return (
-    <div className="w-full border-b-[0.5px]  rounded-sm gap-0 flex justify-evenly items-center p-1 hover:border-[0.5px] hover:border-sky-400 hover:transition-colors hover:bg-sky-100 ">
+    <div className="w-full border-b-[0.5px]  rounded-lg gap-0 flex justify-evenly items-center p-1 hover:border-[0.5px] hover:border-sky-400 hover:transition-colors hover:bg-sky-100 ">
       <div className="w-10 h-10 bg-blue-400 rounded-full flex-shrink-0">
         <img src='' alt=''   className="w-full h-full object-cover rounded-full" />
       </div>
